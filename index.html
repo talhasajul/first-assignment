@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>First Assignment About HTML5</title>
+    <style>
+        body{font-family: arial;}
+        header{background: orange; padding: 20px; text-align: center; border-bottom: 5px solid green;}
+        section{content: ""; display: block; clear: both;}
+        h2{text-align: center;}
+        .main-content{text-align: center; width: 670px; float: left; margin-left: 200px; padding: 0 50px; border-right: 1px solid black;}
+        .sidebar{width:280px; float: left; padding: 0 20px;}
+        iframe{width:350px; height: 700px; border:0;}
+        .map{width: 100%; height: 300px;}
+        footer{text-align: center;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>First Assignment About HTML5</h1>
+    </header>
+    <section>
+        <h2>This is a Simple HTML Layout</h2>
+        <hr>
+        <div class="main-content">
+           <article>
+               <img width="500" height="300" src="img/nature.jpg" alt="natural-view">
+                <h4>A Beautiful Natural View</h4>
+                <p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at justo diam.</strong> In hac habitasse platea dictumst. Nullam porta enim in elit blandit, at dictum erat tempor. Sed commodo magna in mi luctus ultrices. Vivamus blandit pretium tortor. Aliquam egestas, orci vitae pharetra venenatis, sem odio aliquam leo, id varius risus felis eu ipsum. Proin lorem est,<mark> eleifend non egestas eu, pharetra sed elit. Suspendisse vitae nunc sit amet neque tempor semper nec vitae lectus. Aliquam felis nisl, rhoncus sed tellus condimentum,</mark> pharetra efficitur nisi. Praesent convallis odio ac lacus blandit, at facilisis tortor imperdiet. <del>Morbi tincidunt, odio id sagittis dignissim,</del> metus lacus euismod mi, sed scelerisque dolor felis eget elit. Mauris ornare vestibulum pharetra. Donec lobortis, metus ut vehicula mattis, velit tortor feugiat purus, vitae hendrerit leo nibh mattis metus. </p>
+           </article>
+            <hr>
+            <h4><mark>Table is not valid for <a href="https://validator.w3.org/#validate_by_input" target="_blank">https://validator.w3.org</a> for this I don't this</mark></h4>
+            <table>
+                <caption>This is the table area</caption>
+                <tr>
+                    <th>No.</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Web Design</td>
+                    <td>5000</td>
+                </tr>
+            </table>
+            <hr>
+        </div>
+        <aside class="sidebar">
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Send Us About Your Info</legend>
+                    <label for="fname">First Name</label><br>
+                    <input type="text" placeholder="First Name" id="fname"><br><br>
+                    <label for="lname">Last Name</label><br>
+                    <input type="text" placeholder="Last Name" id="lname"><br><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" placeholder="Enter Your Email" id="email"><br><br>
+                    <label for="pass">Password</label><br>
+                    <input type="password" placeholder="Password" id="pass"><br><br>
+                    <label>Gender</label><br>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" checked>
+                    <label for="female">Female</label><br><br>
+                    <label for="cv">Attach Your CV</label><br>
+                    <input type="file" id="cv"><br><br>
+                    <label for="messege">Write about your self :</label><br>
+                    <textarea id="messege" cols="25" rows="5"></textarea><br><br>
+                    <input type="submit" value="Send">
+                </fieldset>
+            </form>
+        </aside>
+    </section>
+    <section>
+        <div class="main-content">
+            <h2>Lifestyle of Jelly Fishes</h2>
+            <video width="600" controls>
+                <source src="video/Jellyfishes.mp4" type="video/mp4">
+                <source src="video/Jellyfishes.ogg" type="video/ogg">
+            </video>
+            <hr>
+            <h3><mark>If you can't <del>see</del> the videos ! You can listen the audio file below</mark></h3>
+            <audio controls>
+                <source src="audio/Blackbird-sound.mp3" type="audio/mpeg">
+                <source src="audio/Blackbird-sound.ogg" type="audio/ogg">
+            </audio>
+        </div>
+        <aside class="sidebar">
+           <h3>This project done by <a href="https://www.facebook.com/sajul22" target="_blank">me</a></h3>
+            <iframe src="https://talhasajul.github.io/Cauda/"></iframe>
+        </aside>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.4268058328094!2d90.39890311500382!3d23.874479584528356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c52cf35a63ad%3A0x43b2f5169dde26f5!2sCoders%20Foundation%20Institute!5e0!3m2!1sen!2sbd!4v1580066486385!5m2!1sen!2sbd"></iframe>
+    </section>
+    <footer>
+        <p>Copyright &copy; 2020. Talha_sajul All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
